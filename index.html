@@ -4,36 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S R Interiors | 15 Years of Excellence in Telangana</title>
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f172a'/><text y='70' x='25' font-family='serif' font-size='70' fill='%23f59e0b'>S</text></svg>">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
     <style>
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
         .heading-font { font-family: 'Playfair Display', serif; }
-        .project-item { transition: all 0.5s ease; }
+        .project-item { transition: all 0.5s ease; opacity: 1; }
+        .filter-btn.active { border-color: #d97706; color: #0f172a; }
     </style>
 </head>
-<body class="bg-gray-50 text-slate-900">
+<body class="bg-gray-50 text-slate-900 overflow-x-hidden">
 
     <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-md border-b border-white/10 py-4">
         <div class="container mx-auto px-6 flex justify-between items-center">
             <div class="heading-font text-white text-2xl tracking-tighter">S R <span class="text-amber-500">INTERIORS</span></div>
             <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest text-gray-300">
-                <a href="#services" class="hover:text-amber-500 transition-colors">Services</a>
-                <a href="#portfolio" class="hover:text-amber-500 transition-colors">Portfolio</a>
-                <a href="#contact" class="hover:text-amber-500 transition-colors">Contact</a>
+                <a href="#services" class="hover:text-amber-500 transition-colors text-xs">Services</a>
+                <a href="#portfolio" class="hover:text-amber-500 transition-colors text-xs">Portfolio</a>
+                <a href="#contact" class="hover:text-amber-500 transition-colors text-xs">Contact</a>
             </div>
-            <div class="text-amber-500 font-bold text-sm">+91 9010942969</div>
+            <div class="text-amber-500 font-bold text-sm tracking-widest">+91 9010942969</div>
         </div>
     </nav>
 
     <section class="relative h-screen flex items-center bg-slate-900">
         <div class="absolute inset-0 z-0">
             <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=2000" 
-                 alt="S R Interiors Background" class="w-full h-full object-cover opacity-30">
-            <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/40 to-transparent"></div>
+                 alt="Luxury Interior Design Background" class="w-full h-full object-cover opacity-30">
+            <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/60 to-transparent"></div>
         </div>
 
-        <div class="container mx-auto px-6 relative z-10 pt-20">
+        <div class="container mx-auto px-6 relative z-10 pt-20 text-left">
             <div class="max-w-4xl">
                 <span class="text-amber-500 font-bold tracking-[0.3em] uppercase text-xs mb-4 block">
                     Established 2011 • 15 Years of Legacy
@@ -42,7 +48,7 @@
                     500+ Projects. <br>
                     <span class="text-amber-500 italic text-4xl md:text-6xl">Defined by Excellence.</span>
                 </h1>
-                <p class="text-gray-300 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl">
+                <p class="text-gray-300 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl font-light">
                     Telangana's expert in high-end residential, commercial environments, and handcrafted furniture.
                 </p>
                 <div class="flex flex-wrap gap-4">
@@ -88,113 +94,67 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
                 <div class="group">
                     <div class="relative overflow-hidden mb-8 aspect-[4/5]">
-                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=800" 
-                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=800" alt="Residential" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
                     <h3 class="heading-font text-2xl mb-4">Residential Interiors</h3>
-                    <p class="text-gray-600 text-sm mb-6 leading-relaxed italic">Luxury cupboards, modular kitchens, and end-to-end home solutions.</p>
-                    <ul class="text-[10px] space-y-3 text-slate-400 font-bold tracking-widest uppercase">
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Modular Kitchens</li>
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Bespoke Wardrobes</li>
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Full Home Turnkey</li>
-                    </ul>
+                    <p class="text-gray-600 text-sm mb-6 leading-relaxed italic italic">Luxury cupboards, modular kitchens, and end-to-end home solutions.</p>
                 </div>
-
                 <div class="group">
                     <div class="relative overflow-hidden mb-8 aspect-[4/5]">
-                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" 
-                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800" alt="Commercial" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
                     <h3 class="heading-font text-2xl mb-4">Commercial Spaces</h3>
-                    <p class="text-gray-600 text-sm mb-6 leading-relaxed italic">Productive office hubs and retail outlets that represent your brand.</p>
-                    <ul class="text-[10px] space-y-3 text-slate-400 font-bold tracking-widest uppercase">
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Corporate Offices</li>
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Retail Showrooms</li>
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Workspace Planning</li>
-                    </ul>
+                    <p class="text-gray-600 text-sm mb-6 leading-relaxed italic italic">Productive office hubs and retail outlets that represent your brand.</p>
                 </div>
-
                 <div class="group">
                     <div class="relative overflow-hidden mb-8 aspect-[4/5]">
-                        <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&q=80&w=800" 
-                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&q=80&w=800" alt="Furniture" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                     </div>
                     <h3 class="heading-font text-2xl mb-4">Custom Furniture</h3>
-                    <p class="text-gray-600 text-sm mb-6 leading-relaxed italic">Handcrafted furniture units made to measure with premium materials.</p>
-                    <ul class="text-[10px] space-y-3 text-slate-400 font-bold tracking-widest uppercase">
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Solid Wood Units</li>
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Luxury Upholstery</li>
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-amber-500 mr-3"></span> Smart Storage Units</li>
-                    </ul>
+                    <p class="text-gray-600 text-sm mb-6 leading-relaxed italic italic">Handcrafted furniture units made to measure with premium materials.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="py-32 bg-slate-50">
+    <section id="portfolio" class="py-32 bg-slate-50 text-left">
         <div class="container mx-auto px-6">
-            
             <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
                 <div class="max-w-xl">
                     <h2 class="heading-font text-4xl text-slate-900 mb-4">Portfolio Highlights</h2>
                     <p class="text-gray-500 italic">A selection of our finest work across 15 years.</p>
                 </div>
-                
                 <div id="filter-buttons" class="flex flex-wrap gap-6 text-[10px] font-bold uppercase tracking-[0.2em]">
-                    <button onclick="filterProjects('all')" class="filter-btn active pb-2 border-b-2 border-amber-600 text-slate-900" data-filter="all">All</button>
-                    <button onclick="filterProjects('residential')" class="filter-btn pb-2 border-b-2 border-transparent text-gray-400 hover:text-slate-900" data-filter="residential">Residential</button>
-                    <button onclick="filterProjects('commercial')" class="filter-btn pb-2 border-b-2 border-transparent text-gray-400 hover:text-slate-900" data-filter="commercial">Commercial</button>
-                    <button onclick="filterProjects('furniture')" class="filter-btn pb-2 border-b-2 border-transparent text-gray-400 hover:text-slate-900" data-filter="furniture">Furniture</button>
+                    <button onclick="filterProjects('all')" class="filter-btn active pb-2 border-b-2 transition-all" data-filter="all">All</button>
+                    <button onclick="filterProjects('residential')" class="filter-btn pb-2 border-b-2 border-transparent text-gray-400 hover:text-slate-900 transition-all" data-filter="residential">Residential</button>
+                    <button onclick="filterProjects('commercial')" class="filter-btn pb-2 border-b-2 border-transparent text-gray-400 hover:text-slate-900 transition-all" data-filter="commercial">Commercial</button>
+                    <button onclick="filterProjects('furniture')" class="filter-btn pb-2 border-b-2 border-transparent text-gray-400 hover:text-slate-900 transition-all" data-filter="furniture">Furniture</button>
                 </div>
             </div>
 
             <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="project-item residential group relative aspect-square overflow-hidden bg-slate-200">
                     <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center">
+                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center text-white">
                         <span class="text-amber-500 text-[10px] font-bold uppercase mb-2">Residential</span>
-                        <h4 class="text-white heading-font text-xl">Luxury Villa Transformation</h4>
+                        <h4 class="heading-font text-xl">Luxury Villa Transformation</h4>
                         <p class="text-gray-400 text-xs mt-2 italic">Secunderabad</p>
                     </div>
                 </div>
                 <div class="project-item commercial group relative aspect-square overflow-hidden bg-slate-200">
                     <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center">
+                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center text-white">
                         <span class="text-amber-500 text-[10px] font-bold uppercase mb-2">Commercial</span>
-                        <h4 class="text-white heading-font text-xl">Modern Office Suite</h4>
+                        <h4 class="heading-font text-xl">Modern Office Suite</h4>
                         <p class="text-gray-400 text-xs mt-2 italic">Hyderabad</p>
                     </div>
                 </div>
                 <div class="project-item furniture group relative aspect-square overflow-hidden bg-slate-200">
                     <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center">
+                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center text-white">
                         <span class="text-amber-500 text-[10px] font-bold uppercase mb-2">Furniture</span>
-                        <h4 class="text-white heading-font text-xl">Bespoke Wall Unit</h4>
+                        <h4 class="heading-font text-xl">Bespoke Wall Unit</h4>
                         <p class="text-gray-400 text-xs mt-2 italic">Custom Woodwork</p>
-                    </div>
-                </div>
-                <div class="project-item residential group relative aspect-square overflow-hidden bg-slate-200">
-                    <img src="https://images.unsplash.com/photo-1616176429562-47403c10ff4a?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center">
-                        <span class="text-amber-500 text-[10px] font-bold uppercase mb-2">Residential</span>
-                        <h4 class="text-white heading-font text-xl">Modular Kitchen Hub</h4>
-                        <p class="text-gray-400 text-xs mt-2 italic">Telangana Project</p>
-                    </div>
-                </div>
-                <div class="project-item commercial group relative aspect-square overflow-hidden bg-slate-200">
-                    <img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center">
-                        <span class="text-amber-500 text-[10px] font-bold uppercase mb-2">Commercial</span>
-                        <h4 class="text-white heading-font text-xl">Retail Boutique Space</h4>
-                        <p class="text-gray-400 text-xs mt-2 italic">City Center</p>
-                    </div>
-                </div>
-                <div class="project-item furniture group relative aspect-square overflow-hidden bg-slate-200">
-                    <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-slate-900/90 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-center items-center p-8 text-center">
-                        <span class="text-amber-500 text-[10px] font-bold uppercase mb-2">Furniture</span>
-                        <h4 class="text-white heading-font text-xl">Executive Desk Series</h4>
-                        <p class="text-gray-400 text-xs mt-2 italic">Teak Collection</p>
                     </div>
                 </div>
             </div>
@@ -204,30 +164,30 @@
     <section id="contact" class="py-32 bg-white">
         <div class="container mx-auto px-6">
             <div class="bg-slate-900 shadow-2xl overflow-hidden flex flex-col md:flex-row">
-                <div class="md:w-1/3 p-12 text-white border-b md:border-b-0 md:border-r border-white/10">
+                <div class="md:w-1/3 p-12 text-white border-b md:border-b-0 md:border-r border-white/10 text-left">
                     <h3 class="heading-font text-3xl mb-8">Consult Today</h3>
                     <div class="space-y-8">
                         <div>
                             <p class="text-[10px] font-bold text-amber-500 uppercase tracking-widest mb-2">Office</p>
-                            <p class="text-gray-400 text-sm">Address:7-3-33, Mallikarjuna Nagar, Nagarjuna Sagar Ring Rd, Reddy Colony, Hyderabad, Telangana 500079</p>
+                            <p class="text-gray-400 text-sm leading-relaxed">7-3-33, Mallikarjuna Nagar, Reddy Colony, Hyderabad, Telangana 500079</p>
                         </div>
                         <div>
                             <p class="text-[10px] font-bold text-amber-500 uppercase tracking-widest mb-2">Call Us</p>
-                            <p class="text-xl font-bold">+91 9010942969</p>
+                            <p class="text-xl font-bold tracking-wider">+91 9010942969</p>
                         </div>
                     </div>
                 </div>
                 <div class="md:w-2/3 p-12 bg-white">
-                    <form action="#" class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        <input type="text" placeholder="Your Name" class="border-b border-gray-200 py-3 outline-none focus:border-amber-500 text-sm">
-                        <input type="tel" placeholder="Phone Number" class="border-b border-gray-200 py-3 outline-none focus:border-amber-500 text-sm">
-                        <select class="md:col-span-2 border-b border-gray-200 py-3 outline-none focus:border-amber-500 text-sm bg-transparent">
-                            <option disabled selected>Select Service</option>
+                    <form action="https://formspree.io/f/your_unique_id" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <input type="text" name="name" placeholder="Your Name" required class="border-b border-gray-200 py-3 outline-none focus:border-amber-500 text-sm transition-colors">
+                        <input type="tel" name="phone" placeholder="Phone Number" required class="border-b border-gray-200 py-3 outline-none focus:border-amber-500 text-sm transition-colors">
+                        <select name="service" required class="md:col-span-2 border-b border-gray-200 py-3 outline-none focus:border-amber-500 text-sm bg-transparent transition-colors">
+                            <option value="" disabled selected>Select Service</option>
                             <option>Residential</option>
                             <option>Commercial</option>
                             <option>Custom Furniture</option>
                         </select>
-                        <button class="bg-slate-900 text-white font-bold uppercase tracking-widest text-[10px] py-5 px-10 hover:bg-amber-600 transition-all">Request Site Visit</button>
+                        <button type="submit" class="bg-slate-900 text-white font-bold uppercase tracking-widest text-[10px] py-5 px-10 hover:bg-amber-600 transition-all">Request Site Visit</button>
                     </form>
                 </div>
             </div>
@@ -250,20 +210,22 @@
             const buttons = document.querySelectorAll('.filter-btn');
 
             buttons.forEach(btn => {
-                btn.classList.remove('border-amber-600', 'text-slate-900');
-                btn.classList.add('border-transparent', 'text-gray-400');
+                btn.classList.remove('active');
                 if(btn.getAttribute('data-filter') === category) {
-                    btn.classList.add('border-amber-600', 'text-slate-900');
-                    btn.classList.remove('border-transparent', 'text-gray-400');
+                    btn.classList.add('active');
                 }
             });
 
             items.forEach(item => {
                 item.style.opacity = '0';
+                item.style.transform = 'scale(0.95)';
                 setTimeout(() => {
                     if (category === 'all' || item.classList.contains(category)) {
                         item.style.display = 'block';
-                        setTimeout(() => { item.style.opacity = '1'; }, 10);
+                        setTimeout(() => { 
+                            item.style.opacity = '1'; 
+                            item.style.transform = 'scale(1)';
+                        }, 10);
                     } else {
                         item.style.display = 'none';
                     }
@@ -272,5 +234,4 @@
         }
     </script>
 </body>
-
 </html>
